@@ -1,0 +1,116 @@
+/*
+	File: fn_itemWeight.sqf
+	Author: Bryan "Tonic" Boardwine
+
+	Description:
+	Gets the items weight and returns it.
+*/
+private["_item"];
+_item = [_this,0,"",[""]] call BIS_fnc_param;
+if(_item == "") exitWith {};
+
+switch (_item) do
+{
+	case "oilu": {5};
+	case "oilp": {4};
+	case "tavolo": {5};
+	case "heroinu": {6};
+	case "heroinp": {4};
+	case "cannabis": {6};
+	case "apple": {1};
+	case "water": {1};
+	case "rabbit": {1};
+	case "salema": {2};
+	case "ornate": {2};
+	case "mackerel": {2};
+	case "tuna": {4};
+	case "mullet": {2};
+	case "catshark": {3};
+	case "turtle": {4};
+	case "fishing": {1};
+	case "turtlesoup": {1};
+	case "donuts": {1};
+	case "coffee": {1};
+	case "fuelE": {2};
+	case "fuelF": {5};
+	case "money": {0};
+	case "pickaxe": {2};
+	case "copperore": {6};
+	case "ironore": {6};
+	case "copper_r": {4};
+	case "iron_r": {4};
+	case "sand": {6};
+	case "salt": {6};
+	case "salt_r": {4};
+	case "glass": {4};
+	case "diamond": {6};
+	case "diamondc": {4};
+	case "cocaine": {6};
+	case "cocainep": {4};
+	case "spikeStrip": {1};
+	case "rock": {6};
+	case "cement": {4};
+	case "goldbar": {6};
+	case "mdmau": {6};
+	case "mdmap": {4};
+	case "lsdu": {6};
+	case "lsdp": {4};
+	case "cracku": {6};
+	case "crackp": {4};
+	case "goldu": {6};
+	case "goldp": {4};
+	case "rubyu": {6};
+	case "rubyp": {4};
+	case "emeraldu": {6};
+	case "emeraldp": {4};
+	case "ganascia": {10};
+	case "speedtrap": {1};
+	case "laptop": {4};
+	case "fuelPipe": {4};
+	case "tenaglie": {2};
+	case "speedtrapdetector": {4};
+	case "storagesmall": {5};
+    case "storagebig": {10};
+	case "cannabisSeed": {2};
+	case "cocaineSeed": {2};
+	case "luppolo": {2};
+	case "tartaruga": {3};
+	case "rame": {3};
+	case "canapa": {3};
+	case "alluminio": {3};
+	case "papavero": {3};
+	case "ferro": {3};
+	case "petrolio": {3};
+	case "oro": {3};
+	case "platino": {3};
+	case "cocaina": {3};
+	case "uranio": {3};
+	case "birra": {1};
+	case "ldrame": {2};
+	case "fdcanapa": {2};
+	case "marijuana": {2};
+	case "ldalluminio": {2};
+	case "morfina": {2};
+	case "eroina": {2};
+	case "ldferro": {2};
+	case "benzina": {2};
+	case "napalm": {2};
+	case "ldoro": {2};
+	case "ldplatino": {2};
+	case "cocainapura": {2};
+	case "uranioarricchito": {2};
+	case "obirra": {2};
+	case "orame": {2};
+	case "ocanapa": {2};
+	case "omarijuana": {2};
+	case "oalluminio": {2};
+	case "omorfina": {2};
+	case "oeroina": {2};
+	case "oferro": {2};
+	case "obenzina": {2};
+	case "onapalm": {2};
+	case "oplatino": {2};
+	case "ococainapura": {2};
+	case "ooro": {2};
+	default {1};
+};
