@@ -5,7 +5,7 @@
 	Description:
 	Starts the initial process of jailing.
 */
-private["_bad","_unit"];
+private["_bad","_unit","_altezza","_pos"];
 _unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _cell = [_this,2,[],[[]]] call BIS_fnc_param;
 hint format["%1", _unit];
@@ -17,9 +17,23 @@ player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];
 player setVariable["transporting",false,true];
 
+//prendi posizione marker
+
+_pos = getMarkerPos "jail_marker";
+_lax= _pos select 0;
+_lay= _pos select 1;
+_altezza = 4;
+
+
 titleText[localize "STR_Jail_Warn","PLAIN"];
 hint localize "STR_Jail_LicenseNOTF";
-player setPos (getMarkerPos "jail_marker");
+
+[] spawn {
+player allowdamage false;
+player setPos [_lax, _lay, _altezza];
+sleep 1;
+player allowdamage true;
+};
 
 Jail_OldUniform = Uniform player;
 //player addUniform "A3L_Prisoner_Outfit";    //fixare
@@ -38,21 +52,20 @@ if(_bad) then
 	//	player setPos (fed_jail modeltoWorld _cell);
 	//};
 	
-	if(player distance (getMarkerPos "jail_marker") > 40) then
+	if(player distance (getMarkerPos "jail_marker") > 60) then
 {
-	player setPos (getMarkerPos "jail_marker");
+[] spawn {
+	player allowdamage false;
+	player setPos [_lax, _lay, _altezza];
+	sleep 1;
+	player allowdamage true;
+	};
 };
 
 
 };
 
-//Check to make sure they goto check
-/*
-if(player distance (getMarkerPos "jail_marker") > 40) then
-{
-	player setPos (getMarkerPos "jail_marker");
-};
-*/
+
 
 if(life_inv_heroinu > 0) then {[false,"heroinu",life_inv_heroinu] call life_fnc_handleInv;};
 if(life_inv_heroinp > 0) then {[false,"heroinp",life_inv_heroinp] call life_fnc_handleInv;};

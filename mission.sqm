@@ -2136,8 +2136,8 @@ class Mission
 				class Item11
 				{
 					position[]={11132.949,-0.013507677,10424.255};
-					azimut=-378.75015;
-					offsetY=15.8;
+					azimut=-378.75;
+					offsetY=4.5;
 					special="NONE";
 					id=102;
 					side="WEST";
