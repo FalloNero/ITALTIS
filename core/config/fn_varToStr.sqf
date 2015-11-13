@@ -175,4 +175,5 @@ switch (_var) do
 	case "license_civ_spartan": {"Spartan"}; // spartan
 	case "license_civ_mafia": {"Mafia"}; // mafia
 	case "license_med_morfina": {"Morfina"}; // mafia
+	case "license_civ_bb": {"Banda Bassotti"}; // mafia
 };

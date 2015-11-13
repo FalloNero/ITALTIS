@@ -73,6 +73,7 @@ switch (_mode) do
 			case "terrorista": {_var = "license_civ_terrorista"}; // birra 
 			case "spartan": {_var = "license_civ_spartan"}; // birra 
 			case "morfina2": {_var = "license_med_morfina"}; // birra 
+			case "bb": {_var = "license_civ_bb"}; // bb
 			default {_var = ""};
 		};
 	};
@@ -136,6 +137,7 @@ switch (_mode) do
 			case "license_civ_cocainapura": {_var = "cocainapura"}; // birra 
 			case "license_civ_uranioarricchito": {_var = "uranioarricchito"}; // birra 
 			case "license_med_morfina": {_var = "morfina medica"}; // birra 
+			case "license_civ_bb": {_var = "Banda Bassotti"}; // bb
 			default {_var = ""};
 		};
 	};

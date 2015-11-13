@@ -252,6 +252,7 @@ class Life_Client_Core
 		class clothing_terroristi {};
 		class clothing_spartan {};
 		class clothing_mafia {};
+		class clothing_bb {};
 	};
 
 	class Player_Menu
