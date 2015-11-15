@@ -5,7 +5,7 @@
 	Description:
 	Starts the initial process of jailing.
 */
-private["_bad","_unit","_altezza","_pos"];
+private["_bad","_unit","_altezza","_pos","_lax","_lay"];
 _unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _cell = [_this,2,[],[[]]] call BIS_fnc_param;
 hint format["%1", _unit];
@@ -20,8 +20,8 @@ player setVariable["transporting",false,true];
 //prendi posizione marker
 
 _pos = getMarkerPos "jail_marker";
-_lax= _pos select 0;
-_lay= _pos select 1;
+_lax = _pos select 0;
+_lay = _pos select 1;
 _altezza = 4;
 
 
@@ -29,6 +29,11 @@ titleText[localize "STR_Jail_Warn","PLAIN"];
 hint localize "STR_Jail_LicenseNOTF";
 
 [] spawn {
+_pos = getMarkerPos "jail_marker";
+_lax = _pos select 0;
+_lay = _pos select 1;
+_altezza = 4;
+
 player allowdamage false;
 player setPos [_lax, _lay, _altezza];
 sleep 1;
@@ -55,6 +60,11 @@ if(_bad) then
 	if(player distance (getMarkerPos "jail_marker") > 60) then
 {
 [] spawn {
+	_pos = getMarkerPos "jail_marker";
+	_lax = _pos select 0;
+	_lay = _pos select 1;
+	_altezza = 4;
+
 	player allowdamage false;
 	player setPos [_lax, _lay, _altezza];
 	sleep 1;
