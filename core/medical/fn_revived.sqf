@@ -65,7 +65,7 @@ hintSilent "";
 player setVariable ["ace_sys_wounds_uncon", false];
 player enableSimulation true;
 player allowDamage true;
-player setDamage 0.85;
+player setDamage 0.15;
 player setCaptive false;
 player playMove "amovppnemstpsraswrfldnon";
 
