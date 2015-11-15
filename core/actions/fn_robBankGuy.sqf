@@ -18,7 +18,7 @@ if(side _robber != civilian) exitWith { hint "Non puoi rapinare la banca perchè
 if(_robber distance _shop > 5) exitWith { hint "Devi essere entro 5m dalla cassa per rapinare!" };
 
 _cops = (west countSide playableUnits);
-//if(_cops < 4) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Devono esserci almeno 5 poliziotti";};
+if(_cops < 4) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Devono esserci almeno 5 poliziotti";};
 
 
 
