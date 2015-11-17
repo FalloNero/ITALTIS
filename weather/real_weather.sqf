@@ -145,10 +145,10 @@
 			_rain = 0;
 		};
 		if((date select 3 > 2) and (date select 3 <6)) then {
-			_fog = 0.4 + (random 0.6);
+			_fog = 0.1 + (random 0.4);
 		} else {
 			if((_lastrain > 0.6) and (_rain < 0.2)) then {
-				_fog = random 0.3;
+				_fog = random 0.2;
 			} else {
 				_fog = 0;
 			};

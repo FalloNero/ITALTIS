@@ -2135,9 +2135,9 @@ class Mission
 				};
 				class Item11
 				{
-					position[]={11132.949,-0.013507677,10424.255};
+					position[]={11608.951,16.868393,9854.8613};
 					azimut=-378.75;
-					offsetY=3.5;
+					offsetY=2.7739999;
 					special="NONE";
 					id=102;
 					side="WEST";
@@ -3133,7 +3133,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={11785.635,19.190735,11862.09};
+					position[]={11563.732,84.964493,7082.0503};
 					azimut=-41.086601;
 					offsetY=0.5;
 					special="NONE";
@@ -6616,7 +6616,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=166;
+		items=249;
 		class Item0
 		{
 			position[]={8367.9746,95.395302,25145.063};
@@ -6652,7 +6652,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={11129.091,0.022686681,10440.976};
+			position[]={11605.093,16.135656,9871.582};
 			name="fed_jail_marker";
 			text="Prigione di Stato";
 			type="mil_warning";
@@ -6772,10 +6772,10 @@ class Mission
 		};
 		class Item20
 		{
-			position[]={11128.588,0.024705056,10441.082};
+			position[]={11604.59,16.132833,9871.6885};
 			name="jail_marker";
 			type="Empty";
-			angle=166.78789;
+			angle=166.78799;
 		};
 		class Item21
 		{
@@ -7317,7 +7317,7 @@ class Mission
 		};
 		class Item88
 		{
-			position[]={11786.847,19.098368,11861.831};
+			position[]={11564.944,85.134743,7081.7915};
 			name="Tessile_1_1_1_1_2_1_1";
 			text="Processo Uranio PROSSIMAMENTE";
 			type="mil_box";
@@ -7387,7 +7387,7 @@ class Mission
 		};
 		class Item96
 		{
-			position[]={20085.975,36.255043,16989.225};
+			position[]={18697.334,72.650696,10944.768};
 			name="cocaina";
 			text="Campo Cocaina";
 			type="respawn_unknown";
@@ -7913,15 +7913,15 @@ class Mission
 		};
 		class Item161
 		{
-			position[]={11094.325,-0.001503136,10417.626};
+			position[]={11601.382,16.156954,9876.3555};
 			name="fes";
 			text="fed";
 			markerType="RECTANGLE";
 			type="b_unknown";
-			colorName="ColorKhaki";
-			a=50;
-			b=80;
-			angle=70.314201;
+			colorName="ColorWEST";
+			a=70;
+			b=120;
+			angle=60.498798;
 		};
 		class Item162
 		{
@@ -7951,6 +7951,911 @@ class Mission
 			text="Base Banda Bassotti";
 			type="mil_warning";
 			colorName="ColorRed";
+		};
+		class Item166
+		{
+			position[]={11127.471,152.76559,8417.7158};
+			name="RISERVA FEDERALE";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWEST";
+			fillName="DiagGrid";
+			a=2000;
+			b=2000;
+		};
+		class Item167
+		{
+			position[]={10005.716,34.818405,9138.207};
+			name="ris fed altis";
+			text=" RISERVA FEDERALE di ALTIS";
+			type="mil_warning";
+			colorName="ColorWEST";
+		};
+		class Item168
+		{
+			position[]={12891.645,46.658062,19826.098};
+			name="circuito";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=38.774132;
+		};
+		class Item169
+		{
+			position[]={12909.066,45.432083,19873.674};
+			name="circuito_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=181.58893;
+		};
+		class Item170
+		{
+			position[]={12911.077,45.028992,19932.643};
+			name="circuito_2";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=0.85577613;
+		};
+		class Item171
+		{
+			position[]={12917.777,43.166321,19987.594};
+			name="circuito_3";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=374.13159;
+		};
+		class Item172
+		{
+			position[]={12946.247,42.01165,20026.139};
+			name="circuito_3_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=416.00153;
+		};
+		class Item173
+		{
+			position[]={12991.805,41.530064,20060.742};
+			name="circuito_3_2";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=228.605;
+		};
+		class Item174
+		{
+			position[]={13039.547,40.602791,20091.406};
+			name="circuito_3_3";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=423.78098;
+		};
+		class Item175
+		{
+			position[]={13087.729,38.258671,20122.947};
+			name="circuito_3_4";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=405.36154;
+		};
+		class Item176
+		{
+			position[]={13101.687,39.33334,20164.055};
+			name="circuito_3_5";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=703.95795;
+		};
+		class Item177
+		{
+			position[]={13080.404,42.058872,20220.295};
+			name="circuito_3_6";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=336.04236;
+		};
+		class Item178
+		{
+			position[]={13085.595,42.395206,20262.662};
+			name="circuito_3_7";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=218.08354;
+		};
+		class Item179
+		{
+			position[]={13116.288,42.124481,20311.561};
+			name="circuito_3_8";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=385.61926;
+		};
+		class Item180
+		{
+			position[]={13124.449,42.769783,20361.584};
+			name="circuito_3_9";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=350.60486;
+		};
+		class Item181
+		{
+			position[]={13136.729,42.803303,20405.102};
+			name="circuito_3_10";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=390.15933;
+		};
+		class Item182
+		{
+			position[]={13164.872,42.256954,20455.252};
+			name="circuito_3_11";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=386.77444;
+		};
+		class Item183
+		{
+			position[]={13196.642,42.665478,20501.77};
+			name="circuito_3_12";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=401.40991;
+		};
+		class Item184
+		{
+			position[]={13233.962,42.91325,20548.105};
+			name="circuito_3_13";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=397.79877;
+		};
+		class Item185
+		{
+			position[]={13268.94,42.014088,20596.686};
+			name="circuito_3_14";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=394.37051;
+		};
+		class Item186
+		{
+			position[]={13301.002,40.484531,20645.912};
+			name="circuito_3_15";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=392.02798;
+		};
+		class Item187
+		{
+			position[]={13338.895,39.396618,20673.764};
+			name="circuito_3_16";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=434.00555;
+		};
+		class Item188
+		{
+			position[]={13380.993,39.410698,20680.885};
+			name="circuito_3_17";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=447.03278;
+		};
+		class Item189
+		{
+			position[]={13395.418,40.328178,20710.482};
+			name="circuito_3_18";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=350.73157;
+		};
+		class Item190
+		{
+			position[]={13387.117,44.538139,20769.361};
+			name="circuito_3_19";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=533.66748;
+		};
+		class Item191
+		{
+			position[]={13385.141,47.858582,20827.449};
+			name="circuito_3_20";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=362.6232;
+		};
+		class Item192
+		{
+			position[]={13391.86,51.712341,20885.936};
+			name="circuito_3_21";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=368.76981;
+		};
+		class Item193
+		{
+			position[]={13403.321,55.371929,20943.232};
+			name="circuito_3_22";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=374.13159;
+		};
+		class Item194
+		{
+			position[]={13423.077,56.57806,20998.158};
+			name="circuito_3_23";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=384.36063;
+		};
+		class Item195
+		{
+			position[]={13416.361,58.187267,21034.912};
+			name="circuito_3_24";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=674.41467;
+		};
+		class Item196
+		{
+			position[]={13374.475,62.234402,21075.621};
+			name="circuito_3_25";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=495.44095;
+		};
+		class Item197
+		{
+			position[]={13339.305,65.007843,21123.822};
+			name="circuito_3_26";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=509.12976;
+		};
+		class Item198
+		{
+			position[]={13309.274,67.691246,21175.195};
+			name="circuito_3_27";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=330.48343;
+		};
+		class Item199
+		{
+			position[]={13283.196,70.500389,21228.939};
+			name="circuito_3_28";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=338.71429;
+		};
+		class Item200
+		{
+			position[]={13252.767,72.384224,21279.516};
+			name="circuito_3_29";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=320.62665;
+		};
+		class Item201
+		{
+			position[]={13238.938,73.756264,21324.566};
+			name="circuito_3_30";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=222.58339;
+		};
+		class Item202
+		{
+			position[]={13263.834,74.065514,21347.879};
+			name="circuito_3_31";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=411.50458;
+		};
+		class Item203
+		{
+			position[]={13306.115,73.719589,21333.654};
+			name="circuito_3_32";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=493.33035;
+		};
+		class Item204
+		{
+			position[]={13352.349,73.910454,21306};
+			name="circuito_3_33";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=467.35986;
+		};
+		class Item205
+		{
+			position[]={13408.617,74.509552,21295.475};
+			name="circuito_3_34";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=812.13928;
+		};
+		class Item206
+		{
+			position[]={13457.099,74.48632,21279.43};
+			name="circuito_3_35";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=483.75809;
+		};
+		class Item207
+		{
+			position[]={13473.142,72.369255,21245.207};
+			name="circuito_3_36";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=538.78986;
+		};
+		class Item208
+		{
+			position[]={13491.676,72.813744,21245.924};
+			name="circuito_3_37";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=405.47617;
+		};
+		class Item209
+		{
+			position[]={13535.88,76.591057,21284.068};
+			name="circuito_3_38";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=411.57382;
+		};
+		class Item210
+		{
+			position[]={13583.291,82.519279,21319.008};
+			name="circuito_3_39";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=234.00835;
+		};
+		class Item211
+		{
+			position[]={13632.128,88.419312,21352.863};
+			name="circuito_3_40";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=416.91064;
+		};
+		class Item212
+		{
+			position[]={13682.037,92.094955,21382.457};
+			name="circuito_3_41";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=421.9173;
+		};
+		class Item213
+		{
+			position[]={13734.082,94.702881,21410.26};
+			name="circuito_3_42";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=424.6188;
+		};
+		class Item214
+		{
+			position[]={13778.999,95.156715,21443.053};
+			name="circuito_3_43";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=582.5155;
+		};
+		class Item215
+		{
+			position[]={13805.758,96.601311,21490.656};
+			name="circuito_3_44";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=374.13159;
+		};
+		class Item216
+		{
+			position[]={13826.747,101.24352,21543.275};
+			name="circuito_3_45";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=569.23431;
+		};
+		class Item217
+		{
+			position[]={13859.665,104.6632,21590.012};
+			name="circuito_3_46";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=403.42789;
+		};
+		class Item218
+		{
+			position[]={13900.71,105.47613,21628.209};
+			name="circuito_3_47";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=410.93143;
+		};
+		class Item219
+		{
+			position[]={13947.443,104.69599,21636.744};
+			name="circuito_3_48";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=454.63663;
+		};
+		class Item220
+		{
+			position[]={14005.964,102.40966,21637.156};
+			name="circuito_3_49";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=444.06714;
+		};
+		class Item221
+		{
+			position[]={14062.449,98.966118,21650.162};
+			name="circuito_3_50";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=428.24927;
+		};
+		class Item222
+		{
+			position[]={14116.497,98.574738,21671.695};
+			name="circuito_3_51";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=605.63208;
+		};
+		class Item223
+		{
+			position[]={14169.328,99.096558,21698.523};
+			name="circuito_3_52";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=238.99164;
+		};
+		class Item224
+		{
+			position[]={14209.152,99.13559,21735.908};
+			name="circuito_3_53";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=578.74591;
+		};
+		class Item225
+		{
+			position[]={14249.387,98.685822,21777.768};
+			name="circuito_3_54";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=407.85626;
+		};
+		class Item226
+		{
+			position[]={14296.118,96.771782,21810.684};
+			name="circuito_3_55";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=421.85623;
+		};
+		class Item227
+		{
+			position[]={14313.594,95.671791,21781.842};
+			name="circuito_3_56";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=390.14816;
+		};
+		class Item228
+		{
+			position[]={14323.753,98.42836,21814.348};
+			name="circuito_3_57";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=20;
+			angle=488.67801;
+		};
+		class Item229
+		{
+			position[]={14289.542,93.257278,21731.129};
+			name="circuito_3_56_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=377.38123;
+		};
+		class Item230
+		{
+			position[]={14274.38,87.772148,21675.18};
+			name="circuito_3_56_2";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=548.79559;
+		};
+		class Item231
+		{
+			position[]={14290.588,80.778572,21634.402};
+			name="circuito_3_56_3";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=455.42603;
+		};
+		class Item232
+		{
+			position[]={14339.209,72.889008,21622.9};
+			name="circuito_3_56_4";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=471.9903;
+		};
+		class Item233
+		{
+			position[]={14377.901,65.429077,21588.916};
+			name="circuito_3_56_5";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=330.37582;
+		};
+		class Item234
+		{
+			position[]={14379.468,60.895382,21538.203};
+			name="circuito_3_56_6";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=375.24368;
+		};
+		class Item235
+		{
+			position[]={14384.173,55.490776,21490.627};
+			name="circuito_3_56_7";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=330.42719;
+		};
+		class Item236
+		{
+			position[]={14421.818,51.238281,21451.936};
+			name="circuito_3_56_8";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=300.53137;
+		};
+		class Item237
+		{
+			position[]={14453.188,50.022549,21408.535};
+			name="circuito_3_56_9";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=688.92444;
+		};
+		class Item238
+		{
+			position[]={14469.395,49.608429,21353.119};
+			name="circuito_3_56_10";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=356.86484;
+		};
+		class Item239
+		{
+			position[]={14463.646,50.491779,21297.699};
+			name="circuito_3_56_11";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=371.7215;
+		};
+		class Item240
+		{
+			position[]={14449.528,52.585957,21241.756};
+			name="circuito_3_56_12";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=373.38654;
+		};
+		class Item241
+		{
+			position[]={14446.914,52.614006,21185.811};
+			name="circuito_3_56_13";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=172.3257;
+		};
+		class Item242
+		{
+			position[]={14462.078,52.435524,21130.916};
+			name="circuito_3_56_14";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=340.67969;
+		};
+		class Item243
+		{
+			position[]={14478.808,52.656666,21073.924};
+			name="circuito_3_56_15";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=343.17871;
+		};
+		class Item244
+		{
+			position[]={14502.335,51.971916,21019.025};
+			name="circuito_3_56_16";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=327.4101;
+		};
+		class Item245
+		{
+			position[]={14531.613,50.714314,20967.793};
+			name="circuito_3_56_17";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			a=10;
+			b=30;
+			angle=334.8634;
+		};
+		class Item246
+		{
+			position[]={13549.747,61.805008,21107.412};
+			name="rallytitle";
+			text="ANTOSEVEN8 CIRCUIT";
+			type="Empty";
+			colorName="ColorYellow";
+		};
+		class Item247
+		{
+			position[]={12875.646,48.27528,19782.775};
+			name="startcirc";
+			text=" START";
+			type="Select";
+			colorName="ColorYellow";
+			a=0.5;
+			b=0.5;
+		};
+		class Item248
+		{
+			position[]={14554.886,49.868069,20922.658};
+			name="finecirc";
+			text=" FINISH";
+			type="Select";
+			colorName="ColorYellow";
+			a=0.5;
+			b=0.5;
 		};
 	};
 };
