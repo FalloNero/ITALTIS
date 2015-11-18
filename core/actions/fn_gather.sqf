@@ -22,10 +22,6 @@ if(_zone == "") exitWith {
 	life_action_inUse = false;
 };
 
-
-_val = random 5;
-
-/*
 //Get the resource that will be gathered from the zone name...
 switch(true) do {
 	case (_zone in ["apple_1","apple_2","apple_3","apple_4","apple_5"]): {_gather = "apple"; _val = 3;};
@@ -43,8 +39,6 @@ switch(true) do {
 	case (_zone in ["uranio"]): {_gather = "uranio"; _val = 2;};
 	default {""};
 };
-
-*/
 //gather check??
 if(vehicle player != player) exitWith {/*hint localize "STR_NOTF_GatherVeh";*/};
 

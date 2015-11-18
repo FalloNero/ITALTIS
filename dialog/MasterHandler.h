@@ -39,3 +39,4 @@
 #include "veh_repaint.hpp"			//Colora veicoli
 #include "market.hpp"
 #include "craft.hpp"
+#include "slot_machine.hpp"

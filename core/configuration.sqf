@@ -572,7 +572,6 @@ __CONST__(life_garage_prices,life_garage_prices);
 */
 life_garage_sell =
 [	
-	
 	["B_Quadbike_01_F",950],
 	["C_Hatchback_01_F",25000],
 	["C_Offroad_01_F", 40000],
@@ -588,6 +587,7 @@ life_garage_sell =
 	["B_Truck_01_transport_F",135000],
 	["B_Truck_01_box_F", 915000],
 	["B_Truck_01_covered_F", 915000],
+	["O_Truck_03_device_F", 1500000],
 	["O_MRAP_02_F",65000],
 	["B_Heli_Light_01_F",157000],
 	["O_Heli_Light_02_unarmed_F",772500],

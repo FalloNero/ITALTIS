@@ -64,6 +64,7 @@ switch (_shop) do
 			["O_Truck_02_transport_F",1400000],
 			["O_Truck_03_ammo_F",1600000],
 			["B_Truck_01_covered_F",2400000],
+			["O_Truck_03_device_F", 3000000],
 			["B_Truck_01_box_F",2800000]
 		];
 	};
@@ -87,6 +88,7 @@ switch (_shop) do
 		[
 			["C_Offroad_01_F",80000],
 			["C_SUV_01_F",120000],
+			["C_Hatchback_01_sport_F",100000],
 			["O_MRAP_02_F",750000]
 		];
 	};

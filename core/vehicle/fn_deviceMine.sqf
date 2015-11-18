@@ -12,7 +12,7 @@ closeDialog 0; //Close the interaction menu.
 life_action_inUse = true; //Lock out the interaction menu for a bit..
 _weight = [_vehicle] call life_fnc_vehicleWeight;
 if((_weight select 1) >= (_weight select 0)) exitWith {hint localize "STR_NOTF_DeviceFull"; life_action_inUse = false;};
-_resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","lsd_area_1","mdma_area_1","crack_area_1","gold_area_1","ruby_area_1","emerald_area_1"];
+_resourceZones = ["luppolo","rame","canapa","alluminio","papavero","oro","platino","cocaina","uranio","petrolio","ferro","apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2","peaches_3","peaches_4","heroin_1","cocaine_1","weed_1","lead_1","iron_1","salt_1","sand_1","diamond_1","oil_1","oil_2","rock_1","lsd_area_1","mdma_area_1","crack_area_1","gold_area_1","ruby_area_1","emerald_area_1"];
 _zone = "";
 
 //Find out what zone we're near
@@ -45,6 +45,19 @@ _item = switch(true) do {
 	case (_zone in ["gold_area_1"]): {"goldu"};
 	case (_zone in ["ruby_area_1"]): {"rubyu"};
 	case (_zone in ["emerald_area_1"]): {"emeraldu"};
+	//************************ per il tempest dispositivi
+	case (_zone in ["luppolo"]): {"luppolo"};
+	case (_zone in ["rame"]): {"rame"};
+	case (_zone in ["canapa"]): {"canapa"};
+	case (_zone in ["alluminio"]): {"alluminio"};
+	case (_zone in ["papavero"]): {"papavero"};
+	case (_zone in ["ferro"]): {"ferro"};
+	case (_zone in ["petrolio"]): {"petrolio"};
+	case (_zone in ["oro"]): {"oro"};
+	case (_zone in ["platino"]): {"platino"};
+	case (_zone in ["cocaina"]): {"cocaina"};
+	case (_zone in ["uranio"]): {"uranio"};
+	//************************** per il tempest dispositivi
 	default {""};
 };
 
