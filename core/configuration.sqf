@@ -394,7 +394,8 @@ life_licenses =
 	["license_cop_copamericano", "cop"], //AMERICANO
 	["license_civ_spartan", "civ"],
 	["license_civ_mafia", "civ"],
-	["license_med_morfina", "med"]
+	["license_med_morfina", "med"],
+	["license_civ_bb", "civ"]
 ];
 
 //Setup License Variables

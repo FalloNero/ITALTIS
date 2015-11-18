@@ -468,7 +468,28 @@ switch(_shop) do
 			};
 		};
 	};
-	    
+	 
+		case "bb":
+	{
+	_weap = ["General Store",
+			[
+				["NVGoggles","Visore Notturno",5000],
+				["Binocular","Binocolo",500],
+				["FirstAidKit","Kit Pronto Soccorso",500],
+				["ToolKit","Kit di Riparazione",500],
+				["ItemGPS","GPS",1000],
+				["ItemRadio","Radio",200],
+				["ItemMap","Mappa",200],
+				["ItemWatch","Orologio",200],
+				["ItemCompass","Bussola",200],
+				["Chemlight_red",nil,1],
+				["Chemlight_yellow",nil,1],
+				["Chemlight_green",nil,1],
+				["Chemlight_blue",nil,1]
+			]
+		];
+	};
+	
     case "aod":
     {
         switch(true) do

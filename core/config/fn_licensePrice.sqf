@@ -64,5 +64,6 @@ switch (_type) do
 	case "meccanico": {0}; //meccanico
 	case "terrorista": {0}; //meccanico
 	case "spartan": {0}; //meccanico
+	case "bb": {0}; //meccanico
 
 };

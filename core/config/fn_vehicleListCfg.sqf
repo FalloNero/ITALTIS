@@ -92,6 +92,36 @@ switch (_shop) do
 	};
 	};
 
+	
+	case "bb_gar":
+	{
+	if(license_civ_bb) then
+		{
+		_return =
+		[
+			["C_Quadbike_01_F",10000],
+			["C_Offroad_01_F",80000],
+			["C_SUV_01_F",120000],
+			["C_Van_01_transport_F",250000],
+			["C_Van_01_box_F",400000],
+			["C_Hatchback_01_sport_F",100000]
+		];
+	};
+	};
+	
+	case "bb_air":
+	{
+	if(license_civ_bb) then
+		{
+		_return =
+		[
+			["B_Heli_Light_01_F",400000],
+			["O_Heli_Light_02_unarmed_F",800000],
+			["I_Heli_Transport_02_F",2800000]
+		];
+	};
+	};
+	
 	case "spartan_gar":
 	{
 	if(license_civ_spartan) then

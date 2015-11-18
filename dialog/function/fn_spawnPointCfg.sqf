@@ -60,6 +60,15 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_bb) then  {
+		    _markers = [
+			    ["bb_spawn","BB HQ","\a3\data\env_chrome_co.paa"],
+				["civ_spawn_1","Kavala","\a3\data\env_chrome_co.paa"],
+				["civ_spawn_2","Athira","\a3\data\env_chrome_co.paa"],
+				["civ_spawn_3","Dorida","\a3\data\env_chrome_co.paa"]
+			];
+		};
+		
 		if(license_civ_spartan) then  {
 		    _markers = [
 			    ["Spartan_Spawn","Spartan HQ","\a3\data\env_chrome_co.paa"],
