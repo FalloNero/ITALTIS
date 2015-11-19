@@ -83,6 +83,10 @@ switch (true) do
 	
 	case (alive player && !_esc && !_bail) :
 	{
+		  //ticket da pagare una volta che si esce di prigione, circa il 10% del conto in banca
+        _bankticket = (life_atmcash / 10);
+        life_atmcash = life_atmcash - _bankticket;
+		
 		life_is_arrested = false;
 		hint localize "STR_Jail_Released";
 		player setPos (getMarkerPos "jail_release");
