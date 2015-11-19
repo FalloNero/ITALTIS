@@ -43,7 +43,10 @@ switch(_shop) do
 						["hgun_P07_snds_F","Tazer",1000],
 						["16Rnd_9x21_Mag","Caricatore 16Rnd Tazer",100],
 						["SMG_01_F","Vermin 45 acp",40000],
-						["30Rnd_45ACP_Mag_SMG_01","Caricatore Vermin",150]
+						["30Rnd_45ACP_Mag_SMG_01","Caricatore Vermin",150],
+						["SmokeShellBlue","Fumogeni Blue",1500],
+						["SmokeShellOrange","Fumogeni Arancioni",1500],
+						["SmokeShell","Fumogeni Bianchi",1500]
 					]
 				];
 				if (__GETC__(life_coplevel)  > 1) then //COP LEV. 2
