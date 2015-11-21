@@ -40,7 +40,7 @@ while {true} do
 		[[player,"AinvPknlMstpSnonWnonDnon_medic_1"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
 		player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
 	};
-	sleep 1.8;
+	sleep 1.0;
 	if(isNull _ui) then {
 		5 cutRsc ["life_progress","PLAIN"];
 		_ui = uiNamespace getVariable "life_progress";
@@ -63,3 +63,7 @@ _house setVariable[format["bis_disabled_Door_%1",_door],0,true]; //Unlock the do
 //Unlock house Containers
 _house setVariable["locked",false,true];
 titleText[localize "STR_House_StorageUnlock","PLAIN"];
+
+//Give house keys
+_curTarget = cursorTarget;
+life_vehicles pushBack _curTarget;

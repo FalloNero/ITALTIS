@@ -1,5 +1,5 @@
-author = "Tonic - A3CL Dev Team - CRY";
-onLoadName = "ARMA 3 OneLife";
+author = "Tonic mod by - ITALTIS TEAM - ";
+onLoadName = "ARMA 3 ITALTIS";
 onLoadMission = "RPG Mode Based on Tonic's Altis Life RPG";
 loadScreen = "italtis.jpg";
 joinUnassigned = 1;
