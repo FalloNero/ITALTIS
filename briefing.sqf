@@ -3,6 +3,7 @@
 waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
+player createDiarySubject ["credits","CREDITI"];
 player createDiarySubject ["changelog","Lista Cambiamenti"];
 player createDiarySubject ["serverrules","Regole Generali"];
 player createDiarySubject ["policerules","Regole Polizia"];
@@ -23,6 +24,16 @@ player createDiarySubject ["controls","Controlli"];
 		]
 	];
 */
+
+	player createDiaryRecord["credits",
+		[
+			"Persone che hanno collaborato alla mod",
+				"
+					Questa missione e iniziata tempo fa col team A3CL, ovvero arma 3 city life, dove girava la mappa Lakeside valley di Shultz, non avendo la possibilita di lavorare la mappa il team si e messo a sbinarizzare tutto per sistemare questi problemi. Putroppo hanno chiuso poco dopo per via dei giocatori, persone senza voglia di giocare ma solo voglia di disturbare. Il progetto e stato archiviato fino ad ora, dove e stato un'altra volta modificato per girare su Altis e adesso ci lavorano CRY e Makarov.
+				"
+		]
+	];
+	
 	player createDiaryRecord["changelog",
 		[
 			"Lista cambiamenti ufficiale",
