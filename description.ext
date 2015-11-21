@@ -1,7 +1,7 @@
 author = "Tonic - A3CL Dev Team - CRY";
 onLoadName = "ARMA 3 OneLife";
 onLoadMission = "RPG Mode Based on Tonic's Altis Life RPG";
-loadScreen = "logo.jpg";
+loadScreen = "italtis.jpg";
 joinUnassigned = 1;
 respawn = BASE;
 //respawn = INSTANT;

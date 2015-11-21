@@ -2988,9 +2988,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6577.8975,96.966103,12705.194};
-					azimut=-130.85899;
-					offsetY=0.5;
+					position[]={6272.4912,114.44379,12715.906};
+					azimut=0.47927001;
 					special="NONE";
 					id=145;
 					side="CIV";
@@ -3896,7 +3895,6 @@ class Mission
 					id=190;
 					side="WEST";
 					vehicle="B_Soldier_F";
-					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 				};
@@ -3905,7 +3903,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=269;
+		items=270;
 		class Item0
 		{
 			position[]={12785.8,-0.084030204,16739.1};
@@ -6708,6 +6706,16 @@ class Mission
 			vehicle="Land_u_Barracks_V2_F";
 			skill=0.60000002;
 		};
+		class Item269
+		{
+			position[]={6273.4482,114.33707,12696.853};
+			azimut=90.559135;
+			offsetY=4.7683699e-007;
+			id=460;
+			side="EMPTY";
+			vehicle="Land_Factory_Main_F";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
@@ -7351,7 +7359,7 @@ class Mission
 		};
 		class Item81
 		{
-			position[]={6579.104,96.509468,12705.366};
+			position[]={6273.6978,114.45596,12716.078};
 			name="Tessile_1";
 			text="Processo Rame";
 			type="mil_box";

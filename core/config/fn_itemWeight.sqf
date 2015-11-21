@@ -85,7 +85,7 @@ switch (_item) do
 	case "platino": {2};
 	case "cocaina": {2};
 	case "uranio": {2};
-	case "birra": {2};
+	case "birra": {1};
 	case "ldrame": {1};
 	case "fdcanapa": {1};
 	case "marijuana": {1};

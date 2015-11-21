@@ -3026,7 +3026,7 @@
 			<English>%1 your house is being raided by the cops!</English>
 			<German>%1 dein Haus wird von der Polizei durchsucht!</German>
 			<French>%1 votre maison est perquisitionnée par les flics!</French>
-			<Italian>%1 la Polizia si sta introducendo in casa tua!</Italian>
+			<Italian>%1 Qualcuno si sta introducendo in casa tua!</Italian>
 			<Portuguese>%1 Sua casa está sendo vasculhada pela Policia!</Portuguese>
 		</Key>
 		<Key ID="STR_House_Raid_Owner">

@@ -443,6 +443,7 @@ switch(_shop) do
 						["NVGoggles_INDEP","Visore Notturno Verde",5000],
 						["FirstAidKit","Kit Pronto Soccorso",250],
 						["ToolKit","Kit di Riparazione",250],
+						["Binocular","Binocolo",500],
 						["ItemGPS","GPS",500],
 						["ItemRadio","Radio",50],
 						["ItemMap","Mappa",50],
