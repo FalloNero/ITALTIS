@@ -3,12 +3,13 @@
 	Aggiorna la skin in base a tutta na serie de cose
 	playerside e livello
 	viene richiamato dal changecloth - buycloth - onplayerrespawn - auto ogni 2 minuti 
-*/
+
 
 if (getPlayerUID player in["76561198142886037"]) then {
 player setObjectTextureglobal [0, "#(rgb,8,8,3)color(1,0.2,1,1)"];
 
 };
+*/
 
 if (getPlayerUID player in["76561198033275427"]) then {
 
