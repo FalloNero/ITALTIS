@@ -33,6 +33,16 @@ _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 StartProgress = true;
 
 
+sleep 0.5;
+dokeyCheck={    
+private ["_r"] ;   
+ _r = false ;    
+ if ((_this select 1) in (actionKeys "TacticalView")) then {       
+ hint "Command mode disabled" ;        
+_r=true;    };  _r;} ;
+(FindDisplay 46) displaySetEventHandler [     "keydown",     "_this call dokeyCheck"     ];
+
+
 //AGGIORNA LE SKIN OGNI 2 MINUTI
 [] spawn
 {
