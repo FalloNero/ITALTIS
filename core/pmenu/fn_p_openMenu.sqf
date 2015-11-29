@@ -15,18 +15,18 @@ switch(playerSide) do
 	case west:
 	{
 		ctrlShow[2011,false];
-		if(__GETC__(life_coplevel) < 5) then
+		if(__GETC__(life_coplevel) < 1) then
 		{
-			ctrlShow[9800,false];		//CUSTOM WANTED LIST PER COP SOLO SE LIVELLLO 6 7
+			ctrlShow[9800,false];		//CUSTOM WANTED LIST PER COP 
 		};
 	};
 	
 	case east:
 	{
 		ctrlShow[2011,false];
-		if(__GETC__(life_coplevel) < 5) then
+		if(__GETC__(life_coplevel) < 1) then
 		{
-			ctrlShow[9800,false];		//CUSTOM WANTED LIST PER COP SOLO SE LIVELLLO 6 7
+			ctrlShow[9800,false];		//CUSTOM WANTED LIST PER COP 
 		};
 	};
 
