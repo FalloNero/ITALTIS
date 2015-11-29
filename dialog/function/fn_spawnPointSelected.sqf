@@ -16,3 +16,13 @@ _sp = _spCfg select _selection;
 life_spawn_point = _sp;
 
 ctrlSetText[38501,format["%2: %1",_sp select 1,localize "STR_Spawn_CSP"]];
+
+
+[] spawn {
+			//scriptName "initMission.hpp: mission start";
+			["rsc\ARMA_3.ogv", false] spawn BIS_fnc_titlecard;	
+			//waitUntil {!(isNil "BIS_fnc_titlecard_finished")};
+			//[[2879.289,5618.516,0],"Alpha and Bravo have been engaged by hostile forces, provide backup"] spawn BIS_fnc_establishingShot;	
+			//OR , The above is a bit more user friendly and easier to control.
+			//[getPos orbit1,"Alpha and Bravo have been engaged by hostile forces, provide backup",300,200,180,0,[]] spawn BIS_fnc_establishingShot;   
+		};

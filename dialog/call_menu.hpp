@@ -23,6 +23,17 @@ class call_menu {
 			w = 1.0;
 			h = 0.125;
 		};
+		
+			class fondtablet: Life_RscPicture
+			{
+			idc = 9090909;
+			text = "texture\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+			};
+		
 
 	};
 	

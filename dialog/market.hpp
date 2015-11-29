@@ -60,6 +60,16 @@ class Market
 			x = 0.49; y = 0.25;
 			w = 0.3; h = 0.04;
 		};	
+		
+		class fondtablet: Life_RscPicture
+		{
+			idc = 9090909;
+			text = "texture\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+		};
 	};
 	
 	class Controls

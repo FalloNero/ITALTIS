@@ -23,6 +23,17 @@ class Life_My_Gang_Diag {
 			w = 0.6;
 			h = 0.6 - (22 / 250);
 		};
+		
+			class fondtablet: Life_RscPicture
+			{
+			idc = 9090909;
+			text = "texture\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+			};
+		
 	};
 	
 	class controls {

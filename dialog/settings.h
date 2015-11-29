@@ -66,6 +66,16 @@ class SettingsMenu
 			w = 0.5;
 			h = (1 / 25);
 		};
+		
+		class fondtablet: Life_RscPicture
+		{
+			idc = 9090909;
+			text = "texture\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+		};
 	};
 	
 	class controls

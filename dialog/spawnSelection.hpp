@@ -48,6 +48,8 @@ class life_spawn_selection
 			alphaFadeStartScale = 1.15;//0.15;
 			alphaFadeEndScale = 1.29;//0.29;
 		};
+		
+					
 	};
 	
 	class controls

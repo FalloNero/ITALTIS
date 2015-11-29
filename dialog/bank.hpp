@@ -22,6 +22,7 @@ class Life_atm_management {
 			w = 0.3;
 			h = 0.6 - (22 / 250);
 		};
+		
 	};
 	
 	class controls {

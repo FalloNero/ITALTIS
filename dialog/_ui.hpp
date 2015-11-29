@@ -37,6 +37,7 @@
 				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.445;
 				w = 0.02; h = 0.03;
 			};
+			
 		};
 		
 		class controls

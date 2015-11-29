@@ -53,6 +53,17 @@
 			x = 0.265; y = 0.675;
 			w = 0.290; h = 0.04;
 		};
+		
+			class fondtablet: Life_RscPicture
+			{
+			idc = 9090909;
+			text = "texture\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+			};
+		
 
 	};
 	

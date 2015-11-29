@@ -39,6 +39,7 @@ class Chop_Shop
 			x = 0.11; y = 0.68;
 			w = 0.2; h = 0.2;
 		};
+		
 	};
 	
 	class controls
