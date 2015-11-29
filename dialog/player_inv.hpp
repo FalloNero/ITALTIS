@@ -7,6 +7,16 @@ class playerSettings {
 	enableSimulation = true;
 	
 	class controlsBackground {
+		
+	class fondtablet: Life_RscPicture
+		{
+			idc = 9090909;
+			text = "texture\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+		};
 	
 	class life_RscTitleBackground:life_RscText {
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
@@ -52,15 +62,7 @@ class playerSettings {
 			text = "";
 		};
 		
-		class fondtablet: Life_RscPicture
-		{
-			idc = 9090909;
-			text = "texture\menu.paa";
-			x = 0;
-			y = -0.12;
-			w = 1;
-			h = 1.28;
-		};
+
 	};
 	
 	class controls {

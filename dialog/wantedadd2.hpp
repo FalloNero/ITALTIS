@@ -13,6 +13,18 @@ class life_wantedadd2 {
 	onLoad = "[] spawn life_fnc_wantedadd2;";
 	
 	class controlsBackground {
+		
+		class fondtablet: Life_RscPicture
+			{
+			idc = 9090909;
+			text = "texture\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+			};
+		
+		
 		class Life_RscTitleBackground:Life_RscText {
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 			idc = -1;
@@ -31,16 +43,7 @@ class life_wantedadd2 {
 			h = 0.6 - (2 / 250);
 		};
 		
-			class fondtablet: Life_RscPicture
-			{
-			idc = 9090909;
-			text = "texture\menu.paa";
-			x = 0;
-			y = -0.12;
-			w = 1;
-			h = 1.28;
-			};
-		
+			
 	};
 	
 	class controls {

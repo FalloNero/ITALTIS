@@ -7,6 +7,16 @@ class Market
 	
 	class controlsBackground
 	{
+		class fondtablet: Life_RscPicture
+		{
+			idc = 9090909;
+			text = "texture\menu.paa";
+			x = 0;
+			y = -0.12;
+			w = 1;
+			h = 1.28;
+		};
+		
 		class RscTitleBackground : Life_RscText
 		{
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
@@ -38,7 +48,6 @@ class Market
 			h = (1 / 25);
 		};
 		
-		
 		class RscTrunkText : Life_RscText
 		{
 			idc = -1;
@@ -49,7 +58,7 @@ class Market
 			x = 0.11; y = 0.25;
 			w = 0.3; h = 0.04;
 		};
-		
+
 		class RscPlayerText : Life_RscText
 		{
 			idc = -1;
@@ -61,15 +70,6 @@ class Market
 			w = 0.3; h = 0.04;
 		};	
 		
-		class fondtablet: Life_RscPicture
-		{
-			idc = 9090909;
-			text = "texture\menu.paa";
-			x = 0;
-			y = -0.12;
-			w = 1;
-			h = 1.28;
-		};
 	};
 	
 	class Controls
