@@ -36,14 +36,14 @@ player allowdamage true;
 Jail_OldUniform = Uniform player;
 //player addUniform "A3L_Prisoner_Outfit";    //fixare
 
-if(_bad) then
-{
-	waitUntil {alive player};
-	waitUntil {life_session_completed};
-	sleep 1;
-	player setPosATL life_lsposition;
+//if(_bad) then
+//{
+//	waitUntil {alive player};
+//	waitUntil {life_session_completed};
+//	sleep 1;
+//	player setPosATL life_lsposition;
 	
-}else{
+//}else{
 	//player setPos (fed_jail modeltoWorld _cell);
 	//if(player distance (fed_jail modeltoWorld _cell) > 40) then
 	//{
@@ -66,7 +66,7 @@ if(_bad) then
 };
 
 
-};
+//};
 
 
 
