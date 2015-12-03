@@ -13,7 +13,8 @@ player setObjectTextureglobal [0, "#(rgb,8,8,3)color(1,0.2,1,1)"];
 
 if (getPlayerUID player in["76561198033275427"]) then {
 
-player setObjectTextureglobal [0, "#(rgb,8,8,3)color(0.1,0,1,0.5)"];
+player addvest "V_HarnessOGL_brn"; player adduniform "U_C_Soldier_VR";
+//player setObjectTextureglobal [0, "#(rgb,8,8,3)color(0.1,0,1,0.5)"];
 };
 
 switch (playerSide) do {
