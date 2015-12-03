@@ -1,3 +1,6 @@
+
+/* commento script per non utilizzo
+
 private ["_targets","_curTarget"];
 //_curTarget = nearestObject [[8254,6461.4531,0],"il_bank"];
 
@@ -75,3 +78,5 @@ _curTarget setVariable ["dc_ext_forced",0,true];
 
 
 titleText["Porte Hall Bloccate","PLAIN"];
+
+*/

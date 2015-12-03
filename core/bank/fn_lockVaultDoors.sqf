@@ -1,3 +1,6 @@
+
+/* commento script per non utilizzo
+
 private ["_targets","_curTarget"];
 //_curTarget = nearestObject [[8254,6461.4531,0],"il_bank"];
 
@@ -25,3 +28,5 @@ _curTarget setVariable ["b2_forced",0,true];
 _curTarget setVariable ["b3_forced",0,true];
 
 titleText["Porte Vault Bloccate","PLAIN"];
+
+*/
