@@ -20,7 +20,7 @@ if(__GETC__(life_adminlevel) == 0) exitWith {closeDialog 0;};
 switch(__GETC__(life_adminlevel)) do
 {
 	case 1: {ctrlShow [2904,false];ctrlShow [2908,false];ctrlShow [2909,false];ctrlShow [2910,false];ctrlShow [2911,false];ctrlShow [2912,false];};
-	case 2: {ctrlShow [2904,false];ctrlShow [2908,false];ctrlShow [2909,false];ctrlShow [2910,false];ctrlShow [2911,false];ctrlShow [2912,false];};
+	case 2: {ctrlShow [2904,true];ctrlShow [2908,false];ctrlShow [2909,false];ctrlShow [2910,false];ctrlShow [2911,false];ctrlShow [2912,false];};
 	case 3: {ctrlShow [2904,true];ctrlShow [2905,true];ctrlShow [2906,true];ctrlShow [2907,true];ctrlShow [2908,true];ctrlShow [2909,true];ctrlShow [2910,true];ctrlShow [2911,true];ctrlShow [2912,true];ctrlShow [9800,true];};
 };
 //}else{
