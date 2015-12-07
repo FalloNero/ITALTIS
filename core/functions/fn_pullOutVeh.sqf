@@ -13,5 +13,6 @@ player action ["Eject", vehicle player];
 moveOut Player ;
 
 disableUserInput false;
+player setVariable ["lockedinveh",false,true];
 titleText["Sei stato rimosso dal veicolo","PLAIN"];
 titleFadeOut 4;

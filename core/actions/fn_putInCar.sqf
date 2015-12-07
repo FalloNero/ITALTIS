@@ -16,4 +16,5 @@ detach _unit;
 [[_nearestVehicle],"life_fnc_moveIn",_unit,false] call life_fnc_MP;
 _unit setVariable["Escorting",FALSE,TRUE];
 _unit setVariable["transporting",TRUE,TRUE];
+_unit setVariable ["lockedinveh",true,true];
 life_unit_escorted = ObjNull ;

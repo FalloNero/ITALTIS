@@ -43,6 +43,23 @@ _r=true;    };  _r;} ;
 (FindDisplay 46) displaySetEventHandler [     "keydown",     "_this call dokeyCheck"     ];
 
 
+
+
+[] spawn
+{
+	while{true} do
+	{
+	_ilmezzo =  nearestObject [player, "Car"]; 
+	_meters = player distance _ilmezzo;	
+
+			if (!(player in _ilmezzo) and (_meters<4)) then
+			{
+			if(((player getVariable["restrained",false])) and ((player getVariable "lockedinveh"))) then {player moveInCargo _ilmezzo};
+			};
+		sleep 0.5;
+	};
+};
+
 //AGGIORNA LE SKIN OGNI 2 MINUTI
 [] spawn
 {
