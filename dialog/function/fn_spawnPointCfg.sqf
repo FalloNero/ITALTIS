@@ -19,7 +19,8 @@ switch (_side) do
 		_markers = [
 			["cop_spawn_1","Kavala HQ","\a3\data\env_chrome_co.paa"],
 			["cop_spawn_3","Athira HQ","\a3\data\env_chrome_co.paa"],
-			["cop_spawn_fs","Forze Speciali QG","\a3\data\env_chrome_co.paa"]
+			["cop_spawn_fs","Forze Speciali QG","\a3\data\env_chrome_co.paa"],
+			["cop_spawn_fs_1","Forze Speciali QG 2","\a3\data\env_chrome_co.paa"]
 		];
 	};
 	

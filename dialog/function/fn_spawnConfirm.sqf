@@ -17,6 +17,8 @@ if(count life_spawn_point == 0) then
 	_sp = _spCfg select 0;
 	_lsp = _spCfg select 0;
 	
+
+
 	if (_lsp == "Ultima_Posizione") then
 	{
 		player setPosATL life_lsposition;
@@ -31,7 +33,14 @@ if(count life_spawn_point == 0) then
 				player setPos _spawnPos;
 			};
 		}else{
-			player setPos (getMarkerPos (_sp select 0));
+			
+			[] spawn {
+				player allowdamage false;
+				player setPos [(getMarkerPos (life_spawn_point select 0)) select 0,(getMarkerPos (life_spawn_point select 0)) select 1,((getMarkerPos 	(life_spawn_point select 0)) select 2)+5];
+				sleep 2;
+				player allowdamage true;
+			
+			};
 		};
 	};
 	titleText[format["%2 %1",_sp select 1,localize "STR_Spawn_Spawned"],"BLACK IN"];
@@ -67,11 +76,19 @@ else
 				player setPos _spawnPos;
 			};
 		}else{
-			player setPos (getMarkerPos (life_spawn_point select 0));
+			
+			[] spawn {
+				player allowdamage false;
+				player setPos [(getMarkerPos (life_spawn_point select 0)) select 0,(getMarkerPos (life_spawn_point select 0)) select 1,((getMarkerPos 	(life_spawn_point select 0)) select 2)+5];
+				sleep 2;
+				player allowdamage true;
+			
+			};
 		};
 	};
 	titleText[format["%2 %1",life_spawn_point select 1,localize "STR_Spawn_Spawned"],"BLACK IN"];
 };
+
 
 if(life_firstSpawn) then {
 	life_firstSpawn = false;
