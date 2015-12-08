@@ -3844,15 +3844,9 @@ class Mission
 				items=2;
 				class Item0
 				{
-<<<<<<< HEAD
 					position[]={9575.2129,65.609299,13440.618};
 					azimut=-140.18401;
 					offsetY=1.2;
-=======
-					position[]={9573.6387,65.533768,13441.098};
-					azimut=-140.18427;
-					offsetY=2;
->>>>>>> origin/master
 					special="NONE";
 					id=188;
 					side="WEST";
@@ -9118,28 +9112,16 @@ class Mission
 			position[]={9591.2949,60.218891,13393.141};
 			name="cop_car_fs_1";
 			type="Empty";
-<<<<<<< HEAD
 			angle=65;
 		};
 		class Item262
 		{
 			position[]={9580.6475,66.298386,13448.316};
-=======
-			angle=65.316711;
-		};
-		class Item262
-		{
-			position[]={9579.8936,66.224144,13448.863};
->>>>>>> origin/master
 			name="cop_air_fs_1";
 			type="Empty";
 			a=1.1;
 			b=1.1;
-<<<<<<< HEAD
 			angle=99;
-=======
-			angle=98;
->>>>>>> origin/master
 		};
 		class Item263
 		{
