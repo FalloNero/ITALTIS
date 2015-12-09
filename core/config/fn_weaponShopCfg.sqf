@@ -44,7 +44,6 @@ switch(_shop) do
 						["16Rnd_9x21_Mag","Caricatore 16Rnd Tazer",100],
 						["SMG_01_F","Vermin 45 acp",40000],
 						["30Rnd_45ACP_Mag_SMG_01","Caricatore Vermin",150],
-						["SmokeShellBlue","Fumogeni Blue",1500],
 						["SmokeShellOrange","Fumogeni Arancioni",1500],
 						["SmokeShell","Fumogeni Bianchi",1500]
 					]
@@ -78,7 +77,6 @@ switch(_shop) do
 				{
 					_app = _weap select 1;
 					_app pushBack ["arifle_MX_Black_F","Assult Rifle MX 6.5mm",80000];
-					_app pushBack ["100Rnd_65x39_caseless_mag","Caricatore 100Rnd MX SW",500];
 					_weap set [1,_app];
 				};
 				if (__GETC__(life_coplevel)  > 5) then //COP LEV 6 
