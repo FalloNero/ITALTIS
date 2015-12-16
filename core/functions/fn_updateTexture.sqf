@@ -16,9 +16,18 @@ if (getPlayerUID player in["76561198033275427"]) then {
 //player setObjectTextureglobal [0, "#(rgb,8,8,3)color(0.1,0,1,0.5)"];
 };
 */
+
 switch (playerSide) do {
 case civilian:
 {
+
+if (license_civ_mafia) then {
+	if ((uniform Player) == "U_I_CombatUniform") then
+{
+	player setObjectTextureGlobal [0,"texture\spartan_skin.jpg"];
+};
+};
+
 
 if (license_civ_mafia) then {
 	if ((uniform Player) == "U_Rangemaster") then

@@ -31,6 +31,7 @@ switch (_vehicle) do
 			case 12: {_color = "Ferrari"};
 			case 13: {_color = "Universo"};
 			case 14: {_color = "Arcobaleno"};
+			case 14: {_color = "Questa e sparta"};
 		};
 	};
 	
@@ -152,6 +153,7 @@ switch (_vehicle) do
 			case 14: {_color = "Medico"};
 			case 15: {_color = "Spartan"};
 			case 16: {_color = "Arcobaleno"};
+			case 17: {_color = "Mimetico"};
 		};
 	};
 	

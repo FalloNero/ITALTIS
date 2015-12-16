@@ -57,7 +57,8 @@ switch (_vehicle) do
 			["texture\civ_offroad_monster.jpg","civ"],
 			["texture\civ_offroad_ferrari.jpg","civ"],
 			["texture\civ_offroad_universo.jpg","civ"],
-			["texture\CRY_mrap_03.jpg","civ"]
+			["texture\CRY_mrap_03.jpg","civ"],
+			["texture\spartan_offroad.jpg","spa"]
 		];
 	};
 	
@@ -154,7 +155,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
 			["texture\ems_hummingbird.jpg","med"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","spa"],
-			["texture\CRY_mrap_03.jpg","civ"]
+			["texture\CRY_mrap_03.jpg","civ"],
+			["texture\spartan_hummingbird.jpg","spa"]
 		];
 	};
 	
