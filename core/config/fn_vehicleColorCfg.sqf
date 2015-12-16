@@ -34,6 +34,7 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport06_co.paa","civ"],
+			["texture\CRY_mrap_03.jpg","civ"],
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"]
 		];
 	};
@@ -55,7 +56,8 @@ switch (_vehicle) do
 			["texture\mafia_offroad.jpg","mafia"],
 			["texture\civ_offroad_monster.jpg","civ"],
 			["texture\civ_offroad_ferrari.jpg","civ"],
-			["texture\civ_offroad_universo.jpg","civ"]
+			["texture\civ_offroad_universo.jpg","civ"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
@@ -70,6 +72,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa","civ"],
+			["texture\CRY_mrap_03.jpg","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa","cop"]
 		];
 	};
@@ -88,6 +91,7 @@ switch (_vehicle) do
 			["texture\civ_suv_fiamme.jpg","civ"],
 			["texture\civ_suv_strisce.jpg","civ"],
 			["texture\civ_suv_jaguar.jpg","civ"],
+			["texture\CRY_mrap_03.jpg","civ"],
 			["texture\civ_suv_universe.jpg","civ"]
 		];
 	};
@@ -97,7 +101,8 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa","civ"],
-			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"]
+			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
@@ -106,7 +111,8 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa","civ"],
-			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"]
+			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
@@ -123,7 +129,8 @@ switch (_vehicle) do
 			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_indp_co.paa","civ"],
 			["\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa","civ"],
 			["\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa","reb"],
-			["\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa","cop"]
+			["\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa","cop"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
@@ -146,7 +153,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
 			["texture\ems_hummingbird.jpg","med"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","spa"]
+			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","spa"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
@@ -159,7 +167,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","donate"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","spa"],
-			["texture\ems_orca.jpg","med"]
+			["texture\ems_orca.jpg","med"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
@@ -169,7 +178,8 @@ switch (_vehicle) do
 		[
 			["texture\police_hunter.jpg","cop"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"],
-			["texture\police_hunter2.jpg","cop"]
+			["texture\police_hunter2.jpg","cop"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
@@ -178,7 +188,8 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
@@ -187,7 +198,8 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	

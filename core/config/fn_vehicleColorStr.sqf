@@ -30,6 +30,7 @@ switch (_vehicle) do
 			case 11: {_color = "Monster"};
 			case 12: {_color = "Ferrari"};
 			case 13: {_color = "Universo"};
+			case 14: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -45,6 +46,7 @@ switch (_vehicle) do
 			case 5: {_color = "Bianco"};
 			case 6: {_color = "Grigio"};
 			case 7: {_color = "Polizia Nero"};
+			case 8: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -59,6 +61,7 @@ switch (_vehicle) do
 			case 4: {_color = "Marrone"};
 			case 5: {_color = "Verde"};
 			case 6: {_color = "Polizia"};
+			case 7: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -77,6 +80,7 @@ switch (_vehicle) do
 			case 8: {_color = "Strisce"};
 			case 9: {_color = "Jaguar"};
 			case 10: {_color = "Universo"};
+			case 11: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -86,6 +90,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Bianco"};
 			case 1: {_color = "Rosso"};
+			case 2: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -95,6 +100,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Bianco"};
 			case 1: {_color = "Rosso"};
+			case 2: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -121,6 +127,7 @@ switch (_vehicle) do
 			case 7: {_color = "Hunter Camo"};
 			case 8: {_color = "Rebel Camo"};
 			case 9: {_color = "Marrone"};
+			case 10: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -144,6 +151,7 @@ switch (_vehicle) do
 			case 13: {_color = "Rebel Digital"};
 			case 14: {_color = "Medico"};
 			case 15: {_color = "Spartan"};
+			case 16: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -157,6 +165,7 @@ switch (_vehicle) do
 			case 3: {_color = "Desert Digi"};
 			case 4: {_color = "Spartan"};
 			case 5: {_color = "Medico"};
+			case 6: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -167,6 +176,7 @@ switch (_vehicle) do
 			case 0: {_color = "Polizia Normale"};
 			case 1: {_color = "Polizia Nero"};
 			case 2: {_color = "Polizia Penitenziaria"};
+			case 3: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -176,6 +186,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Orange"};
 			case 1: {_color = "Black"};
+			case 2: {_color = "Arcobaleno"};
 		};
 	};
 	
@@ -185,6 +196,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Orange"};
 			case 1: {_color = "Black"};
+			case 2: {_color = "Arcobaleno"};
 		};
 	};
 	
