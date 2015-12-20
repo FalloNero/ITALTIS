@@ -16,6 +16,7 @@ life_versionInfo = "Altis Life RPG v3.1.3";
 [] execVM "IntLight.sqf"; //Interior Lights
 [] execVM "teargas.sqf";
 
+[]execVM "zombie\configurations.sqf";
 
 //weather
 [] execVM "weather\real_weather.sqf";

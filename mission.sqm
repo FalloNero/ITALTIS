@@ -6743,7 +6743,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=264;
+		items=266;
 		class Item0
 		{
 			position[]={8367.9746,95.395302,25145.063};
@@ -9130,6 +9130,24 @@ class Mission
 			text="Forze Speciali QG";
 			type="b_armor";
 			colorName="ColorWEST";
+		};
+		class Item264
+		{
+			position[]={20537.508,80.941742,6692.2813};
+			name="zombie";
+			type="Empty";
+		};
+		class Item265
+		{
+			position[]={20527.953,81.625038,6691.5454};
+			name="zombie2";
+			text="ZOMBIE ZONE";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="DiagGrid";
+			a=1200;
+			b=1200;
 		};
 	};
 };

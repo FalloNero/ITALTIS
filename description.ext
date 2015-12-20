@@ -40,9 +40,29 @@ class CfgFunctions
 };
 
 
+
 class CfgSounds
 {
   sounds[] = {};
+  
+  	class zomb1
+	{
+		name = "zomb1";
+		sound[] = {"\sounds\zomb1.ogg", 1, 1};
+		titles[] = {};
+	};
+	class zomb2
+	{
+		name = "zomb2";
+		sound[] = {"\sounds\zomb2.ogg", 1, 1};
+		titles[] = {};
+	};
+	class zomb3
+	{
+		name = "zomb3";
+		sound[] = {"\sounds\zomb3.ogg", 1, 1};
+		titles[] = {};
+	};
   class hi
 	{
 		name = "hi";
