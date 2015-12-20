@@ -92,8 +92,8 @@ switch (_vehicle) do
 			["texture\civ_suv_fiamme.jpg","civ"],
 			["texture\civ_suv_strisce.jpg","civ"],
 			["texture\civ_suv_jaguar.jpg","civ"],
-			["texture\CRY_mrap_03.jpg","civ"],
-			["texture\civ_suv_universe.jpg","civ"]
+			["texture\civ_suv_universe.jpg","civ"],
+			["texture\CRY_mrap_03.jpg","civ"]
 		];
 	};
 	
