@@ -19,6 +19,8 @@ player setCaptive false;
 //Set some vars on our new body.
 _unit setVariable["restrained",FALSE,TRUE];
 _unit setVariable["Escorting",FALSE,TRUE];
+player setVariable ["lockedinveh",false,true];
+player setVariable ["KillPoints",0, true];
 _unit setVariable["transporting",FALSE,TRUE]; //Again why the fuck am I setting this? Can anyone tell me?
 _unit setVariable["steam64id",(getPlayerUID player),true]; //Reset the UID.
 _unit setVariable["realname",profileName,true]; //Reset the players name.

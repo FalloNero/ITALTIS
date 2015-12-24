@@ -32,6 +32,8 @@ player setVariable["name",nil,TRUE];
 player setVariable["Reviving",nil,TRUE];
 player setVariable["restrained",FALSE,TRUE];
 player setVariable["Escorting",FALSE,TRUE];
+player setVariable ["lockedinveh",false,true];
+player setVariable ["KillPoints",0, true];
 player setVariable["transporting",FALSE,TRUE]; //Again why the fuck am I setting this? Can anyone tell me?
 ////////////////////////////////////////////////////////
 //DROGHE
