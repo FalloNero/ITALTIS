@@ -30,7 +30,7 @@ _boom = "Bo_Mk82" createVehicle [0,0,9999];
 _boom setPos (getPos player);
 _boom setVelocity [100,0,0];
 
-if(alive player) then {player setDamage 0.95;};
+if(alive player) then {player setDamage 1;};
 
 life_isSuicide = false;
 
