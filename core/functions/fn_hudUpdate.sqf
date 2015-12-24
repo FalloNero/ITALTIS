@@ -35,5 +35,5 @@ _money ctrlSetText format["%1", format["%1",_cash]];
 _money ctrlCommit 0;
 //Update points
 _points ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.365];
-_points ctrlSetText format["%1",(_killer getVariable ["KillPoints", 0])];
+_points ctrlSetText format["%1",(player getVariable ["KillPoints", 0])];
 _points ctrlCommit 0;
