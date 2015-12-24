@@ -6743,7 +6743,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=266;
+		items=267;
 		class Item0
 		{
 			position[]={8367.9746,95.395302,25145.063};
@@ -7900,7 +7900,7 @@ class Mission
 		};
 		class Item145
 		{
-			position[]={2983.3809,-0.010273172,5241.3428};
+			position[]={2657.4233,-0.13075054,4828.4199};
 			name="police_hq_3";
 			type="Empty";
 		};
@@ -9133,21 +9133,30 @@ class Mission
 		};
 		class Item264
 		{
-			position[]={20537.508,80.941742,6692.2813};
+			position[]={24206.607,41.996548,21285.594};
 			name="zombie";
 			type="Empty";
 		};
 		class Item265
 		{
-			position[]={20527.953,81.625038,6691.5454};
+			position[]={24612.18,30.98032,21286.568};
 			name="zombie2";
 			text="ZOMBIE ZONE";
-			markerType="ELLIPSE";
+			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorRed";
 			fillName="DiagGrid";
-			a=1200;
-			b=1200;
+			a=6000;
+			b=3500;
+			angle=-54.349926;
+		};
+		class Item266
+		{
+			position[]={27310.256,0.20805135,18334.051};
+			name="zombieinfo";
+			text="TERRA DI NESSUNO";
+			type="KIA";
+			colorName="ColorRed";
 		};
 	};
 };

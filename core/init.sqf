@@ -98,6 +98,8 @@ player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];
 player setVariable["transporting",false,true];
 player setVariable ["lockedinveh",false,true];
+
+player setVariable ["KillPoints",0, true];
 //REVIVE SYSTEM/////////////////////////////////
 player setVariable ["FAR_isUnconscious", 0, true];
 player setVariable ["FAR_isStabilized", 0, true];

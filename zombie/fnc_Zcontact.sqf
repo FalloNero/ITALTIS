@@ -9,7 +9,7 @@
 
 _suoni =  ["zomb1","zomb2","zomb3"];
 _zombie = _this select 0;
-		_zombie setdamage 0.2;
+	
 		_zombie disableAI "FSM";
 		_zombie disableAI "AUTOTARGET";
 		_zombie disableAI "TARGET";
@@ -17,7 +17,7 @@ _zombie = _this select 0;
 		_zombie disableConversation true;
 		_zombie addRating -10000;
 		zarray=zarray+[_zombie];
-		if (zombierun < 1) then {_zombie setdamage 0.5;};
+		//if (zombierun < 1) then {_zombie setdamage 0.5;};
 
 while {alive _zombie} do {
 	_unitsaround = _zombie nearEntities ["Man", 500];
@@ -55,6 +55,7 @@ while {alive _zombie} do {
 			_zombie say3d "zomb2";
 			sleep 1.5;
 		};
+		
 	};
 	
 	if (!isDedicated) then
@@ -63,6 +64,7 @@ while {alive _zombie} do {
 		{
 			zarray = zarray - [_zombie];
 			deletevehicle _zombie;
+			player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) - 1), true];
 		};
 	}
 	else
@@ -71,10 +73,16 @@ while {alive _zombie} do {
 		{
 			zarray = zarray - [_zombie];
 			deletevehicle _zombie;
+			player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) - 1), true];
 		};
 	};
 	sleep 0.5;
 };
+
+
+
+player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) + 1), true];
+hint format["TOTALE PUNTI: %1",(player getVariable ["KillPoints", 0])];
 
 player addRating 2000;
 _zombie setdamage 1;
