@@ -16,6 +16,7 @@ _zombie = _this select 0;
 		_zombie setBehaviour "CARELESS";
 		_zombie disableConversation true;
 		_zombie addRating -10000;
+		_zombie addEventHandler ["killed", {_this call f_assignKillPoint}];
 		zarray=zarray+[_zombie];
 		//if (zombierun < 1) then {_zombie setdamage 0.5;};
 
@@ -64,7 +65,7 @@ while {alive _zombie} do {
 		{
 			zarray = zarray - [_zombie];
 			deletevehicle _zombie;
-			player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) - 1), true];
+			//player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) - 1), true];
 		};
 	}
 	else
@@ -73,16 +74,27 @@ while {alive _zombie} do {
 		{
 			zarray = zarray - [_zombie];
 			deletevehicle _zombie;
-			player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) - 1), true];
+			//player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) - 1), true];
 		};
 	};
 	sleep 0.5;
 };
 
+f_assignKillPoint = {
+
+    _killer = _this select 1;
+
+    if (_killer != (_this select 0)) then {
+
+        _killer setVariable ["KillPoints", ((_killer getVariable ["KillPoints", 0]) + 1), true];
+		
+		_message = format["TOTALE PUNTI: %1",(_killer getVariable ["KillPoints", 0])];
+		systemChat _message;
+    };
+
+};
 
 
-player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) + 1), true];
-hint format["TOTALE PUNTI: %1",(player getVariable ["KillPoints", 0])];
 
 player addRating 2000;
 _zombie setdamage 1;
