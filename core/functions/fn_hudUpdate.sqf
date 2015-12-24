@@ -14,7 +14,7 @@ _food = _ui displayCtrl 23500;
 _water = _ui displayCtrl 23510;
 _health = _ui displayCtrl 23515;
 _money = _ui displayCtrl 23520;
-
+_points = _ui displayCtrl 23525;
 _cash = life_cash+life_atmcash;
 
 //Update food
@@ -33,3 +33,7 @@ _health ctrlCommit 0;
 _money ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.410];
 _money ctrlSetText format["%1", format["%1",_cash]];
 _money ctrlCommit 0;
+//Update points
+_points ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.365];
+_points ctrlSetText format["%1",(_killer getVariable ["KillPoints", 0])];
+_points ctrlCommit 0;

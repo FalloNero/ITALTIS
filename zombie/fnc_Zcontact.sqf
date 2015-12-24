@@ -16,7 +16,7 @@ _zombie = _this select 0;
 		_zombie setBehaviour "CARELESS";
 		_zombie disableConversation true;
 		_zombie addRating -10000;
-		_zombie addEventHandler ["killed", {_this call f_assignKillPoint}];
+		_zombie addEventHandler ["killed", {_this call life_fnc_loot;}];
 		zarray=zarray+[_zombie];
 		//if (zombierun < 1) then {_zombie setdamage 0.5;};
 
@@ -80,19 +80,7 @@ while {alive _zombie} do {
 	sleep 0.5;
 };
 
-f_assignKillPoint = {
 
-    _killer = _this select 1;
-
-    if (_killer != (_this select 0)) then {
-
-        _killer setVariable ["KillPoints", ((_killer getVariable ["KillPoints", 0]) + 1), true];
-		
-		_message = format["TOTALE PUNTI: %1",(_killer getVariable ["KillPoints", 0])];
-		systemChat _message;
-    };
-
-};
 
 
 

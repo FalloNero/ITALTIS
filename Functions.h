@@ -292,6 +292,12 @@ class Life_Client_Core
 		class virt_updateEconomy {};
 	};
 	
+	class zombie
+	{
+		file = "zombie";
+		class loot {};
+	};
+	
 	class Functions
 	{
 		file = "core\functions";
