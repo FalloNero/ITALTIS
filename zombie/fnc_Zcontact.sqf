@@ -57,25 +57,23 @@ while {alive _zombie} do {
 			sleep 1.5;
 		};
 		
-	};
-	
-	if (!isDedicated) then
-	{
-		if (player distance position _zombie > 450) then
-		{
-			zarray = zarray - [_zombie];
-			deletevehicle _zombie;
-			//player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) - 1), true];
-		};
 	}
+	//if (!isDedicated) then
+	//{
+	//	if (player distance position _zombie > 450) then
+	//	{
+	//		zarray = zarray - [_zombie];
+	//		deletevehicle _zombie;
+	//	};
+	//}
 	else
 	{
-		if (ntargets<=0) then
-		{
+		//if (ntargets<=0) then
+		//{
 			zarray = zarray - [_zombie];
 			deletevehicle _zombie;
-			//player setVariable ["KillPoints", ((player getVariable ["KillPoints", 0]) - 1), true];
-		};
+			
+		//};
 	};
 	sleep 0.5;
 };
