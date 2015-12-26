@@ -9133,25 +9133,18 @@ class Mission
 		};
 		class Item264
 		{
-			position[]={24206.607,41.996548,21285.594};
-			name="zombienull";
-			type="Empty";
-		};
-		class Item265
-		{
-			position[]={24612.18,30.98032,21286.568};
+			position[]={18587.715,20.237877,8355.4678};
 			name="zombie2";
-			text="ZOMBIE ZONE";
-			markerType="RECTANGLE";
+			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGrey";
-			fillName="Border";
-			a=6000;
-			b=3500;
+			colorName="ColorRed";
+			fillName="SolidBorder";
+			a=1000;
+			b=1000;
 			angle=-54.349899;
 			drawBorder=1;
 		};
-		class Item266
+		class Item265
 		{
 			position[]={27310.256,0.20805135,18334.051};
 			name="zombieinfo";
@@ -9159,7 +9152,7 @@ class Mission
 			type="KIA";
 			colorName="ColorRed";
 		};
-		class Item267
+		class Item266
 		{
 			position[]={20545.805,42.596863,16795.385};
 			name="111";
@@ -9170,6 +9163,12 @@ class Mission
 			a=30;
 			b=2500;
 			angle=125.329;
+		};
+		class Item267
+		{
+			position[]={18584.598,20.157469,8356.1807};
+			name="zombie";
+			type="Empty";
 		};
 	};
 };
