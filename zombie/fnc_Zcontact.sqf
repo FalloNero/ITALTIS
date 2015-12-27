@@ -40,6 +40,7 @@ while {alive _zombie} do {
 	if (ntargets >=1) then 
 	{
 		_target = player;
+		hint "zombie!";
 		{
 			if (_zombie distance position _x < _zombie distance position _target) then
 			{
@@ -49,12 +50,12 @@ while {alive _zombie} do {
 		}foreach _targets;
 	
 		if (_zombie distance getposATL _target < 160) then {_zombie doMove getposATL _target;};
-		if (_zombie distance getposATL _target < 1.5 && alive _target  && _target != _zombie) then 
+		if (_zombie distance getposATL _target < 3 && alive _target  && _target != _zombie) then 
 		{
 			_zombie switchMove "AwopPercMstpSgthWnonDnon_end";
 			_target setDamage (damage _target + (zombiedamage/100));
 			_zombie say3d "zomb2";
-			sleep 1.5;
+			sleep 0.5;
 		};
 		
 	}
@@ -76,6 +77,7 @@ while {alive _zombie} do {
 		//};
 	};
 	sleep 0.5;
+	
 };
 
 

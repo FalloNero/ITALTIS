@@ -11,13 +11,8 @@ _marker = zombiemkr select 0;
 
 	while {true} do {
 		{
-			if (player distance getmarkerpos _x < player distance getmarkerpos _marker) then
-			{
-				_marker = _x;
-			};
-			sleep 0.01;
-		}foreach zombiemkr;
-
+			_marker = _x;
+		
 		if (player distance getmarkerpos _marker < markerdist) then
 		{
 			if (count zarray < zombielimit) then {
@@ -26,8 +21,10 @@ _marker = zombiemkr select 0;
 				_type createUnit [_pos, groupZMB,"[this]spawn fncZcontact;"];
 				sleep 0.2;
 			};
-		}
-		else {sleep 3;};
+		} else {sleep 3;};
+		}foreach zombiemkr;
+		
+		
 		sleep 1;
 		_rand = floor (random 2);
 		if (count zarray >2 && _rand > 0) then
