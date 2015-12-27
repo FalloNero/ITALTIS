@@ -83,7 +83,7 @@ while {alive _zombie} do {
 
 
 
-
+[] call life_fnc_hudUpdate;
 player addRating 2000;
 _zombie setdamage 1;
 sleep respawntime;

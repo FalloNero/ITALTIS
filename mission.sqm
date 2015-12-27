@@ -6762,7 +6762,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=274;
+		items=270;
 		class Item0
 		{
 			position[]={8367.9746,95.395302,25145.063};
@@ -9164,44 +9164,6 @@ class Mission
 		};
 		class Item265
 		{
-			position[]={25747.205,20.812458,21381.168};
-			name="zombie5";
-			type="Empty";
-			colorName="ColorRed";
-			fillName="SolidBorder";
-			angle=-54.349899;
-			drawBorder=1;
-		};
-		class Item266
-		{
-			position[]={23329.988,14.7598,16681.445};
-			name="zombie2";
-			type="Empty";
-			colorName="ColorRed";
-			fillName="SolidBorder";
-			angle=-54.349899;
-			drawBorder=1;
-		};
-		class Item267
-		{
-			position[]={23931.783,15.587375,20194.707};
-			name="zombie4";
-			type="Empty";
-			colorName="ColorRed";
-			fillName="SolidBorder";
-			angle=-54.349899;
-			drawBorder=1;
-		};
-		class Item268
-		{
-			position[]={22746.199,23.639599,21419.975};
-			name="zombie3";
-			type="Empty";
-			colorName="ColorRed";
-			angle=-54.349899;
-		};
-		class Item269
-		{
 			position[]={21698.396,17.037312,18917.104};
 			name="zombie";
 			type="Empty";
@@ -9212,9 +9174,9 @@ class Mission
 			angle=-54.349899;
 			drawBorder=1;
 		};
-		class Item270
+		class Item266
 		{
-			position[]={26991.57,19.157015,23151.502};
+			position[]={24606.373,33.893642,21350.49};
 			name="zombie1";
 			type="Empty";
 			colorName="ColorRed";
@@ -9222,7 +9184,7 @@ class Mission
 			angle=-54.349899;
 			drawBorder=1;
 		};
-		class Item271
+		class Item267
 		{
 			position[]={22737.34,25.143576,19931.396};
 			name="zombieinfo_1";
@@ -9230,7 +9192,7 @@ class Mission
 			type="KIA";
 			colorName="ColorRed";
 		};
-		class Item272
+		class Item268
 		{
 			position[]={23556.283,59.87957,22627.088};
 			name="zombieinfo_1_1";
@@ -9238,7 +9200,7 @@ class Mission
 			type="KIA";
 			colorName="ColorRed";
 		};
-		class Item273
+		class Item269
 		{
 			position[]={21952.514,18.178301,17542.807};
 			name="zombieinfo_1_2";
