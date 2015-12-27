@@ -20,7 +20,7 @@ zdebugging = 0;	//show the debug stats; enable with 1
 //----------Only marker spawn---------------------------------------
 //with this function, zombies will spawn only near markers
 
-zombiemkr=["zombie"];	   //markers where zombie spawn
+zombiemkr=["zombie1","zombie2","zombie3","zombie4","zombie5"];	   //markers where zombie spawn
 //EXAMPLE: zombiemkr=["marker1",marker2"];
 //where marker1 and marker2 are marker placed on the editor
 
