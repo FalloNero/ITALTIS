@@ -40,7 +40,7 @@ while {alive _zombie} do {
 	if (ntargets >=1) then 
 	{
 		_target = player;
-		hint "zombie!";
+		//hint "zombie!";
 		{
 			if (_zombie distance position _x < _zombie distance position _target) then
 			{
@@ -55,7 +55,7 @@ while {alive _zombie} do {
 			_zombie switchMove "AwopPercMstpSgthWnonDnon_end";
 			_target setDamage (damage _target + (zombiedamage/100));
 			_zombie say3d "zomb2";
-			sleep 0.5;
+			sleep 1;
 		};
 		
 	}
