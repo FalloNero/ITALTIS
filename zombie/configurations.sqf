@@ -8,10 +8,10 @@
 //XXXXXXXXXXXXXXXXXXXXX  EDIT FROM HERE!  XXXXXXXXXXXXXXXXXXXXXXXXX
 //---------general settings----------------------------------------
 
-zombielimit=50;		//zombies respawn afterdead, but for each unit in zone, 7 zombies will spawn
+zombielimit=15;		//zombies respawn afterdead, but for each unit in zone, 7 zombies will spawn
 zombiedamage=50;	//% of the damage of a zombie for a punch
 zombierun = 1; 		//set 1 if zombie must run, 0 if they must walk
-respawntime = 100;	//time for respawn killed zombies
+respawntime = 200;	//time for respawn killed zombies
 
 zdebugging = 0;	//show the debug stats; enable with 1
 
@@ -20,7 +20,7 @@ zdebugging = 0;	//show the debug stats; enable with 1
 //----------Only marker spawn---------------------------------------
 //with this function, zombies will spawn only near markers
 
-zombiemkr=["zombie1"];	   //markers where zombie spawn
+zombiemkr=["zombie1","zombie2","zombie3","zombie4","zombie5","zombie6"];	   //markers where zombie spawn
 //EXAMPLE: zombiemkr=["marker1",marker2"];
 //where marker1 and marker2 are marker placed on the editor
 

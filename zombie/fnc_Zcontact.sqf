@@ -21,69 +21,54 @@ _zombie = _this select 0;
 		//if (zombierun < 1) then {_zombie setdamage 0.5;};
 
 while {alive _zombie} do {
-	_unitsaround = _zombie nearEntities ["Man", 500];
+	_unitsaround = _zombie nearEntities ["CAManBase", 300];
 	_targets = [];
-	ntargets = 0;
+
 	
-	// && side _x != SideZMB
 	{
-		if (group _x != groupZMB) then
+	if (isPlayer _x) then {
+	if (group _x != groupZMB) then
 		{
 			_targets = _targets +[_x];
-			ntargets = ntargets + 1;
+			
+		};
 		};
 		sleep 0.01;
 	}foreach _unitsaround;
 	
-
+_ntargets = count _targets;
 	
-	if (ntargets >=1) then 
+	if (_ntargets >=1) then 
 	{
-		_target = player;
+		
 		//hint "zombie!";
 		{
-			if (_zombie distance position _x < _zombie distance position _target) then
-			{
-				_target = _x;
-			};
-			sleep 0.01;
+		_target = _x;		
+				if (_zombie distance getposATL _target < 150) then {_zombie doMove getposATL _target;};
+				if (_zombie distance getposATL _target < 3 && alive _target  && _target != _zombie) then 
+					{
+						_zombie switchMove "AwopPercMstpSgthWnonDnon_end";
+						_target setDamage (damage _target + (zombiedamage/100));
+						_zombie say3d "zomb2";
+						sleep 1;
+					};						
+		sleep 1;
 		}foreach _targets;
-	
-		if (_zombie distance getposATL _target < 160) then {_zombie doMove getposATL _target;};
-		if (_zombie distance getposATL _target < 3 && alive _target  && _target != _zombie) then 
-		{
-			_zombie switchMove "AwopPercMstpSgthWnonDnon_end";
-			_target setDamage (damage _target + (zombiedamage/100));
-			_zombie say3d "zomb2";
-			sleep 1;
-		};
-		
 	}
-	//if (!isDedicated) then
-	//{
-	//	if (player distance position _zombie > 450) then
-	//	{
-	//		zarray = zarray - [_zombie];
-	//		deletevehicle _zombie;
-	//	};
-	//}
 	else
 	{
-		//if (ntargets<=0) then
-		//{
 			zarray = zarray - [_zombie];
 			deletevehicle _zombie;
-			
-		//};
 	};
-	sleep 0.5;
-	
+
+	sleep 1;
 };
 
 
 
 
 [] call life_fnc_hudUpdate;
+
 player addRating 2000;
 _zombie setdamage 1;
 sleep respawntime;
