@@ -1,3 +1,4 @@
+//AUTHOR: CRY
 
     _killer = _this select 1;
 

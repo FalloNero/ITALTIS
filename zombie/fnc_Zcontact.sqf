@@ -1,6 +1,7 @@
 /*
 	file: fn_zcontact.sqf
 	author: corvobrok
+	EDITED: CRY
 
 	description:
 	IA zombie

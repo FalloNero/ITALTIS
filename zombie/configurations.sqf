@@ -1,6 +1,7 @@
 /*
 	file: configurations.sqf
 	author: corvobrok
+	EDITED: CRY
 	
 	description:
 	set up files

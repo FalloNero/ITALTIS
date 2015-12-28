@@ -1,7 +1,7 @@
 /*
 	file: fn_proximity.sqf
 	author: corvobrok
-	
+	EDITED: CRY
 	descripttion: create random zombies near the player (more zombies if you are in a city)
 */
 _maxnum = zombielimit;
