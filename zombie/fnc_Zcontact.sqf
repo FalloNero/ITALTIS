@@ -22,12 +22,12 @@ _zombie = _this select 0;
 		//if (zombierun < 1) then {_zombie setdamage 0.5;};
 
 while {alive _zombie} do {
-	_unitsaround = _zombie nearEntities ["CAManBase", 300];
+	_unitsaround = _zombie nearEntities [["Man","Car","Truck"], 300];
 	_targets = [];
 
 	
 	{
-	if (isPlayer _x) then {
+	if ((isPlayer _x) or (_x isKindOf "Car") or (_x isKindOf "Truck")) then {
 	if (group _x != groupZMB) then
 		{
 			_targets = _targets +[_x];
@@ -46,13 +46,25 @@ _ntargets = count _targets;
 		{
 		_target = _x;		
 				if (_zombie distance getposATL _target < 150) then {_zombie doMove getposATL _target;};
-				if (_zombie distance getposATL _target < 3 && alive _target  && _target != _zombie) then 
+				if (_zombie distance getposATL _target < 3 && alive _target  && _target != _zombie && (!(_target isKindOf "Car") and !(_target isKindOf "Truck"))) then 
 					{
 						_zombie switchMove "AwopPercMstpSgthWnonDnon_end";
 						_target setDamage (damage _target + (zombiedamage/100));
 						_zombie say3d "zomb2";
 						sleep 1;
-					};						
+					};
+
+				if (_zombie distance getposATL _target < 5  && _target != _zombie && !(isnull (driver _target)) && ((_target isKindOf "Car") or (_target isKindOf "Truck"))) then 
+				{
+				sleep 1;
+				if (_zombie distance getposATL _target < 5  && _target != _zombie && !(isnull (driver _target)) && ((_target isKindOf "Car") or (_target isKindOf "Truck"))) then 
+					{
+						_zombie switchMove "AwopPercMstpSgthWnonDnon_end";
+						_target setDamage (damage _target + (0.25));
+						_zombie say3d "zomb2";
+						sleep 1;
+					};	
+				};					
 		sleep 1;
 		}foreach _targets;
 	}

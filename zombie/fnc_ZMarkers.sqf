@@ -12,7 +12,7 @@ _suoni =  ["zomb1","zomb2","zomb3"];
 	{
 
 			_marker = _x;
-			_unitsaround = getmarkerpos _marker nearEntities ["Man", markerdist];
+			_unitsaround = getmarkerpos _marker nearEntities [["Man","Car","Truck"], markerdist];
 			_targets = [];
 
 		{
