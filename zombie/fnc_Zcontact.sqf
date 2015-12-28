@@ -27,7 +27,7 @@ while {alive _zombie} do {
 
 	
 	{
-	if ((isPlayer _x) or (_x isKindOf "Car") or (_x isKindOf "Truck")) then {
+	if (((isPlayer _x)) or ((isPlayer _x) and ((_x isKindOf "Car") or (_x isKindOf "Truck")))) then {
 	if (group _x != groupZMB) then
 		{
 			_targets = _targets +[_x];
@@ -54,10 +54,10 @@ _ntargets = count _targets;
 						sleep 1;
 					};
 
-				if (_zombie distance getposATL _target < 5  && _target != _zombie && !(isnull (driver _target)) && ((_target isKindOf "Car") or (_target isKindOf "Truck"))) then 
+				if (_zombie distance getposATL _target < 5  && _target != _zombie && ((isPlayer _target) and ((_target isKindOf "Car") or (_target isKindOf "Truck")))) then 
 				{
 				sleep 1;
-				if (_zombie distance getposATL _target < 5  && _target != _zombie && !(isnull (driver _target)) && ((_target isKindOf "Car") or (_target isKindOf "Truck"))) then 
+				if (_zombie distance getposATL _target < 5  && _target != _zombie && ((isPlayer _target) and ((_target isKindOf "Car") or (_target isKindOf "Truck")))) then 
 					{
 						_zombie switchMove "AwopPercMstpSgthWnonDnon_end";
 						_target setDamage (damage _target + (0.25));

@@ -16,7 +16,7 @@ _suoni =  ["zomb1","zomb2","zomb3"];
 			_targets = [];
 
 		{
-		if (isPlayer _x) then
+		if (((isPlayer _x)) or ((isPlayer _x) and ((_x isKindOf "Car") or (_x isKindOf "Truck")))) then
 			{
 				_targets = _targets +[_x];
 			};
