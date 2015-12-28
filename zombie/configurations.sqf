@@ -24,7 +24,7 @@ zombiemkr=["zombie1","zombie2","zombie3","zombie4","zombie5","zombie6"];	   //ma
 //EXAMPLE: zombiemkr=["marker1",marker2"];
 //where marker1 and marker2 are marker placed on the editor
 
-markerdist = 4500;  //distance from markers where zombies spawn/despawn
+markerdist = 500;  //distance from markers where zombies spawn/despawn
 
 
 
