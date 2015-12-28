@@ -6783,7 +6783,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=277;
+		items=282;
 		class Item0
 		{
 			position[]={8367.9746,95.395302,25145.063};
@@ -9165,9 +9165,9 @@ class Mission
 		};
 		class Item263
 		{
-			position[]={25967.617,29.051523,21660.281};
+			position[]={25794.979,32.09129,21739.959};
 			name="zombieinfo";
-			text="-PERICOLO- TERRA DI NESSUNO ";
+			text="-PERICOLO- ZONA ROSSA";
 			type="KIA";
 			colorName="ColorRed";
 		};
@@ -9178,10 +9178,9 @@ class Mission
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorRed";
-			fillName="DiagGrid";
 			a=30;
 			b=2500;
-			angle=125.329;
+			angle=124.316;
 		};
 		class Item265
 		{
@@ -9245,25 +9244,25 @@ class Mission
 		};
 		class Item271
 		{
-			position[]={22737.34,25.143576,19931.396};
+			position[]={22106.545,13.530308,18822.521};
 			name="zombieinfo_1";
-			text="-PERICOLO- TERRA DI NESSUNO ";
+			text="-PERICOLO- ZONA ROSSA";
 			type="KIA";
 			colorName="ColorRed";
 		};
 		class Item272
 		{
-			position[]={23556.283,59.87957,22627.088};
+			position[]={23177.807,26.055237,21677.572};
 			name="zombieinfo_1_1";
-			text="-PERICOLO- TERRA DI NESSUNO ";
+			text="-PERICOLO- ZONA ROSSA";
 			type="KIA";
 			colorName="ColorRed";
 		};
 		class Item273
 		{
-			position[]={21952.514,18.178301,17542.807};
+			position[]={23021.549,9.3564844,16726.09};
 			name="zombieinfo_1_2";
-			text="-PERICOLO- TERRA DI NESSUNO ";
+			text="-PERICOLO- ZONA ROSSA";
 			type="KIA";
 			colorName="ColorRed";
 		};
@@ -9291,6 +9290,54 @@ class Mission
 			name="noflyzone";
 			type="Empty";
 			colorName="ColorBrown";
+		};
+		class Item277
+		{
+			position[]={22325.049,15.286734,18448.67};
+			name="zombie7";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="SolidBorder";
+			angle=-54.349899;
+			drawBorder=1;
+		};
+		class Item278
+		{
+			position[]={24183.096,36.130955,20805.469};
+			name="zona_rossa";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="DiagGrid";
+			a=5000;
+			b=5000;
+			angle=41.842499;
+		};
+		class Item279
+		{
+			position[]={26663.793,17.012819,23337.566};
+			name="zombieinfo_1_1_1";
+			text="-PERICOLO- ZONA ROSSA";
+			type="KIA";
+			colorName="ColorRed";
+		};
+		class Item280
+		{
+			position[]={21264.826,22.123455,16338.359};
+			name="chkpntzr";
+			text="- CHECKPOINT - ZONA ROSSA";
+			type="MinefieldAP";
+			colorName="ColorBlue";
+			angle=-361.147;
+		};
+		class Item281
+		{
+			position[]={19287.281,37.052299,17683.418};
+			name="chkpntzr_1";
+			text="- CHECKPOINT - ZONA ROSSA";
+			type="MinefieldAP";
+			colorName="ColorBlue";
+			angle=-361.147;
 		};
 	};
 };
