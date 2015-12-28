@@ -297,6 +297,7 @@ class Life_Client_Core
 		file = "zombie";
 		class loot {};
 		class ricompensa {};
+		class noflyzone {};
 	};
 	
 	class Functions

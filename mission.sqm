@@ -6783,7 +6783,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=276;
+		items=277;
 		class Item0
 		{
 			position[]={8367.9746,95.395302,25145.063};
@@ -9284,6 +9284,13 @@ class Mission
 			type="Select";
 			colorName="ColorGreen";
 			angle=-1.92377;
+		};
+		class Item276
+		{
+			position[]={24606.291,41.695152,21493.434};
+			name="noflyzone";
+			type="Empty";
+			colorName="ColorBrown";
 		};
 	};
 };
